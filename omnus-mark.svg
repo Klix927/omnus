@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-label="Omnus app icon symbol">
+  <defs>
+    <polygon id="omnus-heptagon-shape" points="320,640 69.8,519.5 8.0,248.8 181.2,31.7 458.8,31.7 632.0,248.8 570.2,519.5" />
+    <clipPath id="omnus-heptagon-clip">
+      <use href="#omnus-heptagon-shape" />
+    </clipPath>
+    <linearGradient id="omnus-heptagon-base" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6b24cf" />
+      <stop offset="58%" stop-color="#7c2ae0" />
+      <stop offset="100%" stop-color="#8741e8" />
+    </linearGradient>
+    <radialGradient id="omnus-heptagon-highlight" cx="74%" cy="20%" r="48%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.28)" />
+      <stop offset="46%" stop-color="rgba(255,255,255,0.1)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+    </radialGradient>
+    <radialGradient id="omnus-heptagon-shadow" cx="24%" cy="82%" r="56%">
+      <stop offset="0%" stop-color="rgba(32,8,76,0.3)" />
+      <stop offset="52%" stop-color="rgba(32,8,76,0.12)" />
+      <stop offset="100%" stop-color="rgba(32,8,76,0)" />
+    </radialGradient>
+  </defs>
+  <use href="#omnus-heptagon-shape" fill="url(#omnus-heptagon-base)" />
+  <g clip-path="url(#omnus-heptagon-clip)">
+    <rect x="0" y="0" width="640" height="640" fill="url(#omnus-heptagon-highlight)" />
+    <rect x="0" y="0" width="640" height="640" fill="url(#omnus-heptagon-shadow)" />
+  </g>
+</svg>
