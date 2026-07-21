@@ -1,31 +1,33 @@
 OMNUS PROPRIETARY LICENSE
-Version 0.1.0-beta
+Version 0.1.1-beta
 
 Copyright (c) 2026 Lolax - Felix Kempf.
-Alle Rechte vorbehalten.
+All rights reserved.
 
 1. Intended Use
-Diese Software wird ausschließlich zur bestimmungsgemäßen Nutzung durch autorisierte Endnutzer bereitgestellt.
+This software is provided solely for its intended use by authorized end users.
 
 2. No Reproduction
-Ohne ausdrückliche vorherige schriftliche Zustimmung des Rechteinhabers ist es untersagt,
-- diese Software ganz oder teilweise zu vervielfältigen,
-- zu verbreiten,
-- öffentlich zugänglich zu machen,
-- zu vermieten, zu verleihen oder zu unterlizenzieren,
-- zu dekompilieren, zu disassemblieren oder abgeleitete Werke zu erstellen,
-soweit nicht zwingendes Recht eine solche Handlung ausdrücklich erlaubt.
+Without the prior express written consent of the rights holder, it is prohibited to:
+- reproduce this software in whole or in part,
+- distribute it,
+- make it publicly available,
+- rent, lend, or sublicense it,
+- decompile, disassemble, or create derivative works,
+except where mandatory law expressly permits such acts.
 
 3. No Transfer Of Rights
-Mit der Bereitstellung der Software wird keine Übertragung von Urheber-, Marken- oder sonstigen Schutzrechten begründet.
+Provision of the software does not transfer any copyright, trademark, or other intellectual property rights.
 
 4. Reservation Of Rights
-Alle nicht ausdrücklich eingeräumten Rechte verbleiben beim Rechteinhaber.
+All rights not expressly granted remain with the rights holder.
+Availability on GitHub (documentation, license text, and release artifacts) does not constitute an open-source license.
 
 5. Disclaimer
-Die Software wird im gesetzlich zulässigen Umfang "wie besehen" bereitgestellt.
+To the extent permitted by law, the software is provided "as is".
 
 6. Governing Framework
-Für Nutzung und Durchsetzung gelten die einschlägigen gesetzlichen Regelungen der Bundesrepublik Deutschland, soweit zulässig.
+Use and enforcement are governed by the applicable laws of the Federal Republic of Germany, to the extent permitted.
 
-Kontakt: kontakt@lolax.de
+Contact: kontakt@lolax.de
+Product: https://omnus.lolax.dev

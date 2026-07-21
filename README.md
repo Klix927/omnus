@@ -1,37 +1,61 @@
 <div align="center">
-  <img src="omnus-mark.svg" alt="Omnus Logo" width="120" />
-  <h1>Omnus Hub</h1>
-  <p><strong>Dein ultimativer, lokaler Study Hub. Fokus auf das, was wirklich zählt.</strong></p>
+  <img src="omnus-mark.svg" alt="Omnus" width="120" />
+  <h1>Omnus</h1>
+  <p><strong>Your ultimate local Study Hub. Focus on what actually matters.</strong></p>
+  <p><a href="https://omnus.lolax.dev"><strong>omnus.lolax.dev</strong></a></p>
+  <p>
+    <img alt="Windows x64" src="https://img.shields.io/badge/Windows-x64-0078D4?logo=windows&logoColor=white" />
+    <img alt="macOS Apple Silicon" src="https://img.shields.io/badge/macOS-Apple_Silicon-555555?logo=apple&logoColor=white" />
+    <img alt="macOS Intel" src="https://img.shields.io/badge/macOS-Intel-555555?logo=apple&logoColor=white" />
+  </p>
+  <p>
+    <a href="https://github.com/Klix927/omnus/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Klix927/omnus?style=flat&logo=github" /></a>
+  </p>
 </div>
 
 ---
 
-Omnus Hub ist dein zentraler Workspace zum strukturierten Lernen und Arbeiten. Verwalte Dokumente, Aufgaben, Notizen und Termine an einem zentralen Ort – entwickelt für absolute Produktivität und ein nahtloses Erlebnis.
+Omnus is your central workspace for structured learning and work. Manage documents, tasks, notes, and calendar in one place — built for deep productivity and a seamless experience. Use it fully local, or connect **BYO-Cloud** (your own drive) to stay in sync across devices without data loss.
+
+> **Note:** Omnus is **proprietary** software. It is distributed via this GitHub repository (README, license, releases) but is **not** open source.
 
 ## Features
 
-* **Spaces & Dokumente:** Organisiere deine Kurse in "Spaces". Verwalte PDFs, lerne interaktiv und behalte immer den Überblick.
-* **Intelligente Notizen:** Ein mächtiger Editor für all deine Mitschriften.
-* **Aufgaben & Kalender:** Verpasse nie wieder eine Deadline. Integriertes Task-Management direkt an deinen Themen.
-* **KI-Integration (BYO-Key):** Bringe deinen eigenen API-Schlüssel (Bring-Your-Own-Key) mit, um smarte KI-Funktionen direkt im Hub zu nutzen – ohne versteckte Abo-Kosten!
-* **Lokaler Fokus:** Keine Cloud-Zwänge. Deine Daten und Notizen bleiben lokal bei dir.
-* **Fokus-Oberfläche:** Vollbild-optimierte Lernoberfläche für konzentriertes Arbeiten ohne Ablenkung.
+* **Spaces & Documents:** Organize courses in Spaces. Manage PDFs, learn interactively, and stay on top of everything.
+* **Smart notes:** A powerful editor for all your notes and annotations.
+* **Tasks & Calendar:** Never miss a deadline. Integrated task management tied to your topics.
+* **AI integration (BYO-Key):** Bring your own API key to use smart AI features inside the hub — no hidden subscription fees.
+* **BYO-Cloud sync:** Connect your own cloud drive and sync Omnus across machines. Your cloud, your rules — no vendor lock-in.
+* **Local-first:** Works great offline on one device. Cloud sync is optional, not required.
+* **Windows & macOS:** Native builds for Windows, plus macOS for **Apple Silicon** and **Intel**.
+* **Focus UI:** Fullscreen-optimized learning surface for distraction-free work.
 
 ## Installation
 
-Omnus ist aktuell exklusiv für **Windows** verfügbar.
-Lade dir einfach den aktuellsten Installer (`.exe`) aus dem [Releases-Tab](../../releases) herunter.
+Download the latest build for your platform from the [Releases](../../releases) tab:
 
-1. Lade die Datei `Omnus_0.1.0_x64-setup.exe` herunter.
-2. Führe das Setup aus.
-3. Starte Omnus Hub und richte (optional) deinen KI-API-Schlüssel in den Einstellungen ein.
+| Platform | File |
+|----------|------|
+| **Windows** | `Omnus_0.1.1_x64-setup.exe` |
+| **macOS (Apple Silicon)** | `Omnus_0.1.1_aarch64.dmg` |
+| **macOS (Intel)** | `Omnus_0.1.1_x64.dmg` |
+
+1. Download the build that matches your OS and chip.
+2. Install / open the app.
+3. (Optional) Add your AI API key in Settings — **BYO-Key**.
+4. (Optional) Connect your own cloud drive in Settings — **BYO-Cloud** — to sync across devices.
+
+Website: [omnus.lolax.dev](https://omnus.lolax.dev)
+
+<sub>Builds are currently unsigned. Windows SmartScreen or macOS Gatekeeper may show a security warning on first launch — expected for indie releases. Choose “More info → Run anyway” (Windows) or open via Right-click → Open / System Settings → Privacy & Security (macOS). If macOS reports the app as damaged, run once: <code>xattr -cr /Applications/Omnus.app</code>.</sub>
 
 ## Feedback & Support
 
-Da Omnus sich in der aktiven Beta-Phase befindet, freuen wir uns über Feedback, Bug-Reports oder Feature-Wünsche.
-Erstelle dazu gerne ein Issue hier auf GitHub oder schreibe uns eine E-Mail an [kontakt@lolax.de](mailto:kontakt@lolax.de).
+Omnus is in active beta — feedback, bug reports, and feature requests are welcome.
+Open an Issue on GitHub or email [kontakt@lolax.de](mailto:kontakt@lolax.de).
 
 ---
+
 <div align="center">
-  Ein Projekt von <strong>Felix Kempf / Lolax</strong> • <a href="https://lolax.de">www.lolax.de</a>
+  A project by <strong>Lolax</strong> · <a href="https://lolax.dev">lolax.dev</a>
 </div>

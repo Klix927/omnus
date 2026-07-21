@@ -1,27 +1,30 @@
-# Sicherheitsrichtlinie
+# Security Policy
 
-## Geltungsbereich
-Diese Sicherheitsrichtlinie gilt für Omnus-Releases und ihre offiziellen Distributionsartefakte.
+## Scope
+This security policy applies to Omnus releases and their official distribution artifacts.
 
 ## Responsible Disclosure
-Bitte Sicherheitslücken vertraulich melden und nicht öffentlich offenlegen, bevor ein Fix verfügbar ist.
+Please report security vulnerabilities confidentially and do not disclose them publicly before a fix is available.
 
-## Kontakt
-- E-Mail: kontakt@lolax.de
-- Betreff: Security Report - Omnus
+## Contact
+- Email: kontakt@lolax.de
+- Subject: Security Report - Omnus
 
-## Erwartete Angaben in einer Meldung
-- Betroffene Version (z. B. v0.1.0-beta)
-- Reproduktionsschritte
-- Erwartetes vs. tatsächliches Verhalten
-- Mögliche Auswirkung
-- Falls vorhanden: Proof-of-Concept
+## What to include in a report
+- Affected version (e.g. v0.1.1-beta)
+- Steps to reproduce
+- Expected vs. actual behavior
+- Potential impact
+- Proof of concept, if available
 
-## Reaktionszeit
-Wir bestätigen den Eingang innerhalb von 72 Stunden.
+## Response time
+We acknowledge receipt within 72 hours.
 
-## Weitere Bearbeitung
-Nach Erstbestätigung erfolgt eine Priorisierung und Rückmeldung zum weiteren Ablauf.
+## Follow-up
+After initial acknowledgment, we prioritize the issue and provide feedback on next steps.
 
-## Rechtlicher Hinweis
-Für die Behandlung von Sicherheitsmeldungen gelten die einschlägigen gesetzlichen Regelungen der Bundesrepublik Deutschland.
+## Legal notice
+Security reports are handled under the applicable laws of the Federal Republic of Germany.
+
+## Unsigned builds
+Release installers are currently unsigned. OS security prompts (Windows SmartScreen, macOS Gatekeeper) on first open are expected; see the README footnote for how to proceed.
